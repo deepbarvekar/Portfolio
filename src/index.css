@@ -1,14 +1,16 @@
 
-* {
+*:not(i) {
   outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   overflow-y: overlay;
-  font-family: 'Times New Roman', Times, serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {

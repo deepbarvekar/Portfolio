@@ -1,6 +1,6 @@
-import React from "react";
-import Typical from "react-typical";
-import "./Profile.css";
+import React from 'react';
+import Typical from 'react-typical';
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -9,10 +9,7 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a
-                href="https://in.linkedin.com/in/deep-barvekar"
-                target="_blank"
-              >
+              <a href="https://in.linkedin.com/in/deep-barvekar" target="_blank">
                 <i class="fa fa-linkedin-square"></i>
               </a>
               <a href="#">
@@ -28,39 +25,28 @@ export default function Profile() {
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
-              {" "}
+              {' '}
               Hello, I'm <span className="highlighted-text">Deep</span>
             </span>
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {" "}
-              <h1>
-                {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Java Developer",
-                    1000,
-                    "Full Stack Developer",
-                    1000,
-                    "React Dev",
-                    1000,
-                  ]}
-                />
-              </h1>
+              {' '}
+              <Typical
+                loop={Infinity}
+                steps={['Java Developer', 1000, 'Full Stack Developer', 1000, 'React Dev', 1000]}
+                wrapper="h1"
+              />
               <span className="profile-role-tagline">
-                skills of developing software with front and back end
-                operations.
+                skills of developing software with front and back end operations.
               </span>
             </span>
           </div>
           <div className="profile-options">
-                       <a
+            <a
               href="https://drive.google.com/file/d/1rIToGcnWrHtLLRaPt812ZM0xERpupCGA/view?usp=sharing"
               download="https://drive.google.com/file/d/1rIToGcnWrHtLLRaPt812ZM0xERpupCGA/view?usp=sharing"
-              target="_blank" 
-            >
+              target="_blank">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

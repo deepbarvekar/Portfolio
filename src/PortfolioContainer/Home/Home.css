@@ -1,8 +1,11 @@
 .home-container{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
     min-height: 670px;
     background-image: url("../../assets/Home/bg.jpg");
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
